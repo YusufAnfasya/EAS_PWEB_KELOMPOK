@@ -1,0 +1,161 @@
+body{
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.sidebar{
+    
+    position: relative;
+    width: 280px;
+    height: 1098px;
+    
+    background: #111827;
+    
+}
+
+
+.sidebar a{
+    position: absolute;
+    transition: 0.3s;
+    padding: 15px;
+    width: 220px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:lighter;
+    
+    background: rgba(0, 183, 255, 0.055);
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+.sidebar a:hover{
+    background-color: rgb(34, 153, 250);
+    left: 5px;
+}
+
+.sidebar h1{
+    padding: 7%;
+}
+
+
+.role{
+    
+    position: relative;
+    
+    width: 248px;
+    height: 72px;
+    left: 16px;
+    top: 16px;
+    
+    color: rgb(0, 77, 26);
+    
+    
+    background: rgb(67, 245, 186);
+    border-radius: 8px;
+    
+}
+
+
+.menu{
+    
+    position: relative;
+    width: 248px;
+    height: 300px;
+    left: 16px;
+    top: 50px;
+    
+    
+    /* Inside Auto Layout */
+    background: rgba(0, 183, 255, 0.144);
+    
+    border-radius: 8px;
+    
+    flex: none;
+    order: 0;
+    
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+
+/* #dBoard{
+   
+} */
+
+#bayar{
+    top : 60px;
+}
+
+#riwayat{
+    top : 120px;
+    background: rgb(112, 239, 243);
+    color: black;
+}
+
+#rapor{
+    top : 180px;
+
+    
+}
+
+#logOut{
+    top : 240px;
+    color: brown;
+    font-weight: bold;
+}
+
+
+
+.dashboard{
+    
+    position: static;
+    width: 248px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    
+}
+
+.main{
+    
+    position: absolute;
+    width: 1592px;
+    height: 1098px;
+    left: 290px;
+    top: 21px;
+    
+    
+    /* Inside Auto Layout */
+    
+    
+}
+
+.main h1{
+    position: relative;
+    padding-left: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight:bolder;
+    
+}
+
+.fitur{
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    margin-top: 7%;
+
+    background: rgb(255, 255, 255);
+    border: 2px solid darkblue;
+    border-radius: 1%;
+    box-shadow: black 20px 20px 2px 2px;
+
+}
+
+.fitur img{
+    padding: 1%;
+}
+
